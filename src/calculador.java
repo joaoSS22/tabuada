@@ -20,7 +20,7 @@ public static void tabuada() {
             System.out.println("Por favor digite um número para calcular a tabuada");
             numero = scaner.nextInt();
             multiplicador = 1;
-            for (int i = 1; i <= 10; i++){
+            while (multiplicador <= 10){
 
         numeroControle = numero * multiplicador;
                 System.out.println(numeroControle);
